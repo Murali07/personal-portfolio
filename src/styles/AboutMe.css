@@ -1,0 +1,226 @@
+/* .aboutme {
+  align-items: center;
+}
+.profile-pic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 1px 0px 0px black;
+  border-radius: 50%;
+  height: 380px;
+  width: 380px;
+  margin: 10px 0px 0 550px;
+}
+.profile-pic-bg {
+  height: 92%;
+  width: 92%;
+  background-image: url("../assets/profile.jpeg");
+  background-size: cover;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.profile-pic-bg:hover {
+  transform: scale(1.07);
+  transition: 1s ease-out;
+}
+p {
+  margin: 10px 10px 50px 50px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.button {
+  margin: 0px 0px 0px 323px;
+  font-size: 14px;
+  font-weight: bold;
+  
+}
+
+.hireme-button {
+  border-radius: 34px;
+  border: none;
+  padding: 11px 26px 11px 26px;
+  background: red;
+  color: white;
+  width: 6.9rem;
+  height: 2.7rem;
+}
+.resume-button {
+  border-radius: 34px;
+  border: none;
+  padding: 11px 26px 11px 26px;
+  background: red;
+  color: white;
+  margin-left: 10px;
+  width: 6.9rem;
+  height: 2.7rem;
+}
+.hireme-button:hover {
+  background: whitesmoke;
+  cursor: pointer;
+  border: 2px solid black;
+  color: red;
+}
+.resume-button:hover {
+  background: whitesmoke;
+  cursor: pointer;
+  border: 2px solid black;
+  color: red;
+}
+ */
+
+/* Responsive css */
+.aboutme {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.profile-pic {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin-left: 4rem;   */
+  box-shadow: 0px 2px 0px 0px #21325e;
+  border-radius: 50%;
+  height: 380px;
+  width: 380px;
+}
+.profile-pic-bg {
+  height: 92%;
+  width: 92%;
+  background-image: url("../assets/profile.jpeg");
+  background-size: cover;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.profile-pic-bg:hover {
+  transform: scale(1.07);
+  transition: 1s ease-out;
+}
+.objective {
+  padding-top: 10px;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.button {
+  display: flex;
+  gap: 1.5rem;
+  font-size: 14px;
+  font-weight: bold;
+}
+.hireme-button {
+  border-radius: 34px;
+  border: none;
+  padding: 14px 0px 0px 27px;
+  background: red;
+  color: white;
+  width: 6.9rem;
+  height: 2.7rem;
+}
+.resume-button {
+  border-radius: 34px;
+  border: none;
+  padding: 14px 0px 0px 27px;
+  background: red;
+  color: white;
+  width: 6.9rem;
+  height: 2.7rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .profile-pic {
+    box-shadow: 0px 2px 0px 0px #21325e;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+  }
+  .profile-pic-bg {
+    height: 92%;
+    width: 92%;
+    background-image: url("../assets/profile.jpeg");
+    background-size: cover;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .objective {
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .button {
+    display: flex;
+    gap: 1rem;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .hireme-button {
+    border-radius: 34px;
+    border: none;
+    padding: 9px 0px 0px 15px;
+    background: red;
+    color: white;
+    width: 5rem;
+    height: 2rem;
+  }
+  .resume-button {
+    border-radius: 34px;
+    border: none;
+    padding: 9px 0px 0px 15px;
+    background: red;
+    color: white;
+    width: 5rem;
+    height: 2rem;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .objective {
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+/* @media only screen and (max-width: 375px) {
+  .objective {
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+@media only screen and (max-width: 912px) {
+  
+  .objective {
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .button {
+    display: flex;
+    gap: 1rem;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .hireme-button {
+    border-radius: 34px;
+    border: none;
+    padding: 12px 0px 0px 18px;
+    background: red;
+    color: white;
+    width: 6rem;
+    height: 2.5rem;
+  }
+  .resume-button {
+    border-radius: 34px;
+    border: none;
+    padding: 12px 0px 0px 18px;
+    background: red;
+    color: white;
+    width: 6rem;
+    height: 2.5rem;
+  }
+} */

@@ -2,16 +2,43 @@ import React from "react";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import "../styles/Home.css";
+import { TypeAnimation } from "react-type-animation";
 
 function Home() {
   return (
     <div className="home">
       <div className="about">
         <h2>Hi, I Am Murali Selvaraj</h2>
+        <br />
+        <div className="animation">
+          <TypeAnimation
+            sequence={[
+              "Ethusiastic Developer 😎",
+              1000,
+              "Full Stack Developer 💻",
+              1000,
+              "MERN Stack Developer 🌐",
+              1000,
+              "React Developer 📱",
+              1000,
+            ]}
+            wrapper="div"
+            cursor={true}
+            repeat={Infinity}
+            style={{ fontSize: "1.5em", color: "red" }}
+          />
+        </div>
         <div className="prompt">
           <p>Full Stack Developer with a passion for learning and creating.</p>
-          <LinkedInIcon />
-          <GitHubIcon />
+          <a
+            href="https://www.linkedin.com/in/murali-selvaraj/"
+            target="_blank"
+          >
+            <LinkedInIcon />
+          </a>
+          <a href="https://github.com/Murali07" target="_blank">
+            <GitHubIcon />
+          </a>
         </div>
       </div>
 
