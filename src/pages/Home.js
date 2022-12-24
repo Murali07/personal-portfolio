@@ -48,17 +48,17 @@ function Home() {
           <li className="item">
             <h2>Front-End</h2>
             <span>
-              ReactJS, HTML, CSS, React Native, Flutter, NPM, Bootstrap,
-              MaterialUI, Yarn, StyledComponents
+              ReactJS, HTML, CSS, React Native, NPM, Bootstrap,
+              MaterialUI, StyledComponents
             </span>
           </li>
           <li className="item">
             <h2>Back-End</h2>
-            <span>NodeJS, ExpressJS, MongoDB, AWS S3, MySQL</span>
+            <span>NodeJS, ExpressJS, MongoDB</span>
           </li>
           <li className="item">
             <h2>Languages</h2>
-            <span>JavaScript, Python, C, C++, TypeScript</span>
+            <span>JavaScript, Java</span>
           </li>
         </ol>
       </div>

@@ -1,5 +1,6 @@
-import React, { useState } from "react";
+import React, { useState , useRef} from "react";
 import styled from "@emotion/styled";
+import emailjs from '@emailjs/browser';
 
 const FormStyles = styled.div`
   .form-group {
@@ -49,9 +50,39 @@ function ContactFrom() {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
+  const form = useRef();
+
+  // function sendEmail(e) {
+  //   e.preventDefault();
+
+  //   emailjs
+  //     .sendForm(
+  //       "service_5yrrtlk",
+  //       "template_zx5ex5o",
+  //       e.target,
+  //       "BBfHU0viPtfXiGN50"
+  //     )
+  //     .then((res) => {
+  //       console.log(res);
+  //     })
+  //     .catch((err) => console.log(err));
+  // }
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_5yrrtlk', 'template_zx5ex5o', form.current, 'BBfHU0viPtfXiGN50')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+      e.target.reset();
+  };
+
   return (
     <div>
-      <FormStyles>
+      <FormStyles ref={form} onSubmit={sendEmail}>
         <div className="form-group">
           <input
             type="text"
