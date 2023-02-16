@@ -30,7 +30,7 @@ function AboutMe() {
         >
           Hire me
         </button>
-        <a href="https://drive.google.com/file/d/1g5pfMW3fojoPwLgZVpjgY3WELuU60Gdn/view?usp=share_link" target="_blank">
+        <a href="https://drive.google.com/file/d/1Juy13N28kd9N7z_1IbgqkukFhzD5qMRx/view?usp=share_link" target="_blank">
           <button className="button resume-button">Resume</button>
         </a>
       </div>
