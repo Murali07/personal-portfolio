@@ -12,17 +12,67 @@ function Experience() {
     <div className="experience">
       <VerticalTimeline lineColor="#3e497a">
         <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="2021 - Present"
+          iconStyle={{ background: "#e9d35b", color: "#fff" }}
+          icon={<WorkIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            MERN Stack Developer - Tata Consultancy Services
+          </h3>
+          <p>
+            <ul>
+              <li>
+                Developed multiple POCs to create a user interface in React JS.
+              </li>
+              <li>
+                Developed POCs to create ecommerce application using JAVA.
+              </li>
+              <li>
+                Responsible for making responsive web pages using Bootstrap and
+                Media Queries.
+              </li>
+              <li>
+                Hands on experience in developing Single Page Applications (SPA)
+                using React JS and Node.js. Used React JS for creating reusable
+                UI components.
+              </li>
+              <li>
+                Daily Programming in server side by using Node.JS and
+                Express.JS.
+              </li>
+              <li>
+                Extensively used GIT for version controlling and regularly
+                pushed the code to GitHub.
+              </li>
+              <li>
+                Used Object Oriented Programming concepts to develop UI
+                components that could be reused across the Web Application.
+              </li>
+              <li>
+                Hands on experience in developing Food Web Application using
+                React JS, Bootstrap, Node.JS, Express and MongoDB.{" "}
+              </li>
+              <li>
+                Implemented generating the verification hash code using Node JS
+                and added user validation by using Node JS, Mongoose.
+              </li>
+            </ul>
+          </p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2019 - Present"
+          date="2018 - 2021"
           iconStyle={{ background: "#e9d35b", color: "#fff" }}
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">
             SAP Security Consultant - Tata Consultancy Services
           </h3>
-          <h4 className="vertical-timeline-element-subtitle">
-            Siemens Healthineers Project
-          </h4>
+          {/* <h4 className="vertical-timeline-element-subtitle">
+            Siemens Healthineers
+          </h4> */}
           <p>
             <ul>
               <li>
@@ -64,7 +114,7 @@ function Experience() {
           </p>
         </VerticalTimelineElement>
 
-        <VerticalTimelineElement
+        {/* <VerticalTimelineElement
           className="vertical-timeline-element--education"
           date="2018 - 2019"
           iconStyle={{ background: "#e9d35b", color: "#fff" }}
@@ -104,7 +154,8 @@ function Experience() {
               </li>
             </ul>
           </p>
-        </VerticalTimelineElement>
+        </VerticalTimelineElement> */}
+
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           date="2014 - 2018"

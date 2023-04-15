@@ -12,14 +12,12 @@ function AboutMe() {
       </div>
       <div className="objective">
         <p>
-          SAP Security Consultant with 4+ years of experience in SAP ERP Central
-          Component (ECC) 6.0. Experience in Production Support for R/3 Security
-          and GRC. Full stack web developer with background knowledge of MERN
-          stacks. I am an enthusiastic team player, deep thinker and a strong
-          customer focus. Reliable, resourceful and efficient team player with
-          good communication skills, able to adapt quickly to new technologies.
-          An effective leader, skilled in enlisting the support of all team
-          members in aligning with project and organizational goals.
+          I have 4.10 years of work experience, with 1.8 year as a Full Stack Web
+          Developer with MERN stack expertise and 3.2 years as a SAP Security
+          Consultant. My goal is to use my skills to build high-quality websites
+          and learn new technologies while staying up-to-date with industry best
+          practices. I'm seeking a position in web development that allows me to
+          continue developing my career and contribute to the company's growth.
         </p>
       </div>
 
@@ -30,7 +28,10 @@ function AboutMe() {
         >
           Hire me
         </button>
-        <a href="https://drive.google.com/file/d/1Juy13N28kd9N7z_1IbgqkukFhzD5qMRx/view?usp=share_link" target="_blank">
+        <a
+          href="https://drive.google.com/file/d/1Juy13N28kd9N7z_1IbgqkukFhzD5qMRx/view?usp=share_link"
+          target="_blank"
+        >
           <button className="button resume-button">Resume</button>
         </a>
       </div>
