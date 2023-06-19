@@ -90,7 +90,7 @@ p {
 .profile-pic-bg {
   height: 92%;
   width: 92%;
-  background-image: url("../assets/profile.jpeg");
+  background-image: url("../assets/pic2.jpg");
   background-size: cover;
   border-radius: 50%;
   background-repeat: no-repeat;
@@ -113,6 +113,7 @@ p {
   font-size: 14px;
   font-weight: bold;
 }
+
 .hireme-button {
   border-radius: 34px;
   border: none;
@@ -121,6 +122,7 @@ p {
   color: white;
   width: 6.9rem;
   height: 2.7rem;
+  transition: background 0.5s;
 }
 .resume-button {
   border-radius: 34px;
@@ -130,6 +132,16 @@ p {
   color: white;
   width: 6.9rem;
   height: 2.7rem;
+  transition: background 0.5s;
+}
+.resume-button:hover {
+  background: #21325e;
+}
+.hireme-button:hover {
+  background: #21325e;
+}
+.button a {
+  text-decoration: none;
 }
 
 @media only screen and (max-width: 600px) {
@@ -139,7 +151,7 @@ p {
     height: 200px;
     width: 200px;
   }
-  .profile-pic-bg {
+  /* .profile-pic-bg {
     height: 92%;
     width: 92%;
     background-image: url("../assets/profile.jpeg");
@@ -147,7 +159,7 @@ p {
     border-radius: 50%;
     background-repeat: no-repeat;
     background-position: center;
-  }
+  } */
   .objective {
     font-size: 18px;
     padding-left: 10px;

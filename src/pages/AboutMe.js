@@ -12,8 +12,8 @@ function AboutMe() {
       </div>
       <div className="objective">
         <p>
-          I have 4.10 years of work experience, with 1.8 year as a Full Stack Web
-          Developer with MERN stack expertise and 3.2 years as a SAP Security
+          I have 5 years of work experience, with 2 years as a Full Stack Web
+          Developer with MERN stack expertise and 3 years as a SAP Security
           Consultant. My goal is to use my skills to build high-quality websites
           and learn new technologies while staying up-to-date with industry best
           practices. I'm seeking a position in web development that allows me to
@@ -29,7 +29,7 @@ function AboutMe() {
           Hire me
         </button>
         <a
-          href="https://drive.google.com/file/d/1Juy13N28kd9N7z_1IbgqkukFhzD5qMRx/view?usp=share_link"
+          href="https://drive.google.com/file/d/1gciOSd0D1eMokniq78KTYZutDRYa4aMX/view?usp=drive_link"
           target="_blank"
         >
           <button className="button resume-button">Resume</button>

@@ -48,20 +48,81 @@ function Home() {
           <li className="item">
             <h2>Front-End</h2>
             <span>
-              ReactJS, HTML, CSS, NPM, Bootstrap,
-              MaterialUI, StyledComponents
+              ReactJS, HTML, CSS, NPM, Bootstrap, MaterialUI, StyledComponents
             </span>
           </li>
           <li className="item">
             <h2>Back-End</h2>
-            <span>NodeJS, ExpressJS, MongoDB, Spring, Spring Boot</span>
+            <span>NodeJS, ExpressJS, Spring, Spring Boot</span>
+          </li>
+          <li className="item">
+            <h2>Database</h2>
+            <span>MongoDB, SQL, MySQL</span>
           </li>
           <li className="item">
             <h2>Languages</h2>
-            <span>Java, JavaScript</span>
+            <span>Java, JavaScript, Python</span>
+          </li>
+          <li className="item">
+            <h2>Version Control</h2>
+            <span>Git</span>
+          </li>
+          <li className="item">
+            <h2>Containerization</h2>
+            <span>Docker</span>
+          </li>
+          <li className="item">
+            <h2>Cloud Services</h2>
+            <span>AWS</span>
+          </li>
+          <li className="item">
+            <h2>Other Tools</h2>
+            <span>Postman, VS Code, Netlify, Render</span>
           </li>
         </ol>
       </div>
+      
+      {/* <div className="skills">
+        <h1>Skills</h1>
+      </div>
+
+      <div class="grid-container">
+        <div>
+          <h2>Front-End</h2>
+          <span>
+            ReactJS, HTML, CSS, NPM, Bootstrap, MaterialUI, StyledComponents
+          </span>
+        </div>
+        <div>
+          <h2>Back-End</h2>
+          <span>NodeJS, ExpressJS, Spring, Spring Boot</span>
+        </div>
+        <div>
+          <h2>Database</h2>
+          <span>MongoDB, SQL, MySQL</span>
+        </div>
+        <div>
+          <h2>Languages</h2>
+          <span>Java, JavaScript, Python</span>
+        </div>
+        <div>
+          <h2>Version Control</h2>
+          <span>Git</span>
+        </div>
+        <div>
+          <h2>Containerization</h2>
+          <span>Docker</span>
+        </div>
+        <div>
+          <h2>Cloud Services</h2>
+          <span>AWS</span>
+        </div>
+        <div>
+          <h2>Other Tools</h2>
+          <span>Postman, VS Code, Netlify, Render</span>
+        </div>
+      </div> */}
+
     </div>
   );
 }
