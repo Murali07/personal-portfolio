@@ -30,8 +30,11 @@ const FormStyles = styled.div`
     outline: none;
     border: none;
     padding: 1.2rem 3rem;
-    border-radius: 25px;
+    border-radius: 8px;
     cursor: pointer;
+  }
+  button[type="submit"]:hover{
+    background: red;
   }
   @media only screen and (max-width: 768px) {
     input,

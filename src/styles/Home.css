@@ -29,9 +29,15 @@
   font-size: 30px;
 }
 .prompt svg {
-  font-size: 60px;
+  font-size: 50px;
   margin: 5px;
   color: white;
+  transition: transform 0.5s;
+}
+
+.prompt svg:hover {
+  color: #ff004f;
+  transform: translateY(-5px);
 }
 
 .skills {
@@ -69,18 +75,51 @@
   font-size: 22px;
 } */
 
-.skills h2 {
-  font-size: 24px;
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 40px;
+  margin-top: 50px;
+  text-align: center;
+  padding: 15px;
+}
+.grid-container div {
+  background: #21325e;
+  color: #fff;
+  padding: 40px;
+  font-size: 13px;
+  font-weight: 300;
+  border-radius: 10px;
+  transition: background 0.5s, transform 0.5s;
 }
 
-.skills .list {
+.grid-container div h2 {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.grid-container div span{
+  font-size: 14px;
+}
+
+.grid-container div:hover {
+  background: #ff004f;
+  transform: translateY(-10px);
+}
+
+/* .skills h2 {
+  font-size: 24px;
+} */
+
+/* .skills .list {
   list-style: none;
   width: 60%;
-}
+} */
 
-.list span {
+/* .list span {
   font-size: 15px;
-}
+} */
 .animation { 
   font-size: 14px; 
   margin: 1rem;
@@ -95,6 +134,10 @@
     margin-top: 10px;
     font-size: 20px;
     width: 80%;
+  }
+
+  .prompt svg{
+    font-size: 40px;
   }
 
   .skills {

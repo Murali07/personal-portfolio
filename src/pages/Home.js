@@ -42,7 +42,7 @@ function Home() {
         </div>
       </div>
 
-      <div className="skills">
+      {/* <div className="skills">
         <h1>Skills</h1>
         <ol className="list">
           <li className="item">
@@ -80,9 +80,9 @@ function Home() {
             <span>Postman, VS Code, Netlify, Render</span>
           </li>
         </ol>
-      </div>
+      </div> */}
       
-      {/* <div className="skills">
+      <div className="skills">
         <h1>Skills</h1>
       </div>
 
@@ -121,7 +121,7 @@ function Home() {
           <h2>Other Tools</h2>
           <span>Postman, VS Code, Netlify, Render</span>
         </div>
-      </div> */}
+      </div>
 
     </div>
   );
