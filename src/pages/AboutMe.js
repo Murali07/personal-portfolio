@@ -29,7 +29,7 @@ function AboutMe() {
           Hire me
         </button>
         <a
-          href="https://drive.google.com/file/d/1gciOSd0D1eMokniq78KTYZutDRYa4aMX/view?usp=drive_link"
+          href="https://drive.google.com/file/d/1ovpaYjAQNU9cA0biqPKvno00ZFORyYjY/view?usp=sharing"
           target="_blank"
         >
           <button className="button resume-button">Resume</button>
