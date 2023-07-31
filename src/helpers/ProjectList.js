@@ -4,8 +4,16 @@ import Mobile from "../assets/mobile.jpg";
 import Helpdesk from "../assets/helpdesk.jpg";
 // import SupportDesk from "../assets/supportDesk.jpg";
 import FoodApp from "../assets/foodapp4.jpg";
+import Netflix from "../assets/netflix.png";
 
 export const ProjectList = [
+  {
+    name: "Netflix Clone",
+    image: Netflix,
+    skills: "React, Node.js, JSX, CSS, MongoDB, Express, Firebase",
+    demo: "https://fascinating-marzipan-c9fd15.netlify.app/",
+    link: "https://github.com/Murali07/Netflix-Clone.git",
+  },
   {
     name: "Moview Review App",
     image: Movie,
